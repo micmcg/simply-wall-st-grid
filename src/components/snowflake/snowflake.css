@@ -1,0 +1,19 @@
+.snowflake-small {
+    width: 50px;
+    height: 50px;
+}
+
+.snowflake-medium {
+    width: 130px;
+    height: 130px;
+}
+
+.snowflake-large {
+    width: 165px;
+    height: 165px;
+}
+
+.snowflake-x-large {
+    width: 280px;
+    height: 280px;
+}

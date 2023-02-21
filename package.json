@@ -1,0 +1,28 @@
+{
+    "name": "simply-wall-st-the-grid",
+    "version": "1.0.0",
+    "description": "Please use this as a template",
+    "source": "index.html",
+    "browserslist": "defaults",
+    "scripts": {
+        "start": "parcel --open",
+        "build": "parcel build"
+    },
+    "dependencies": {
+        "classnames": "^2.3.2",
+        "raviger": "4.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-query": "3.39.3",
+        "react-select": "^5.7.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.0",
+        "parcel": "^2.8.3",
+        "process": "^0.11.10"
+    },
+    "keywords": [],
+    "alias": {
+        "_": "/src"
+    }
+}

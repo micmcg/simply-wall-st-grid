@@ -1,0 +1,11 @@
+.grid-container {
+    --column-gap: var(--double-grid-spacing);
+    --row-gap: var(--triple-grid-spacing);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    column-gap: var(--column-gap);
+    row-gap: var(--row-gap);
+    padding: var(--triple-grid-spacing) var(--grid-spacing);
+}

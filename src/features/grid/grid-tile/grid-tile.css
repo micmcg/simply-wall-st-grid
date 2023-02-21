@@ -1,0 +1,30 @@
+.grid-tile {
+    --tile-width: calc(
+        (100% - ((var(--tiles-per-row) - 1) * var(--column-gap))) /
+            var(--tiles-per-row)
+    );
+
+    width: var(--tile-width);
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: var(--color-light-slate);
+}
+
+.grid-tile header {
+    display: flex;
+    justify-content: center;
+    padding: var(--grid-spacing);
+    background-size: cover;
+    background-position: center center;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.grid-tile header.no-background {
+    background-color: inherit;
+}
+
+.grid-tile .content {
+    color: var(--color-white);
+}

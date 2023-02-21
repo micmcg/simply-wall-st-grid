@@ -1,0 +1,20 @@
+.snowflake-target {
+    --target-light-color: #424b58;
+    --target-dark-color: #2d3642;
+}
+
+.snowflake-target circle:first-of-type {
+    filter: drop-shadow(3px 3px 3px rgb(0 0 0 / 0.4));
+}
+
+.snowflake-target circle:nth-of-type(even) {
+    fill: var(--target-light-color);
+}
+
+.snowflake-target circle:nth-of-type(odd) {
+    fill: var(--target-dark-color);
+}
+
+.snowflake-target line {
+    stroke: var(--target-light-color);
+}

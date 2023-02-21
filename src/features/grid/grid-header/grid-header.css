@@ -1,0 +1,26 @@
+.grid-header {
+    padding: var(--double-grid-spacing) var(--grid-spacing) var(--grid-spacing);
+    border-bottom: 1px solid var(--color-feint-white);
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+}
+
+.grid-header .filters {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    row-gap: var(--grid-spacing);
+}
+
+.grid-header .filters .grid-sort-selector,
+.grid-header .filters .grid-country-selector {
+    width: 250px;
+}
+
+.grid-header .grid-header-message {
+    color: var(--color-feint-white);
+    font-size: var(--font-size-small);
+
+    margin: var(--grid-spacing) auto 0;
+}

@@ -1,0 +1,13 @@
+.snowflake-text-labels {
+    font-size: 0.5em;
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+}
+
+.snowflake-text-labels textPath {
+    fill: var(--color-white);
+}
+
+.snowflake-dot-label {
+    fill: var(--color-white);
+}

@@ -1,0 +1,39 @@
+:root {
+  --grid-spacing: 8px;
+  --half-grid-spacing: calc(var(--grid-spacing) / 2);
+  --double-grid-spacing: calc(2 * var(--grid-spacing));
+  --triple-grid-spacing: calc(3 * var(--grid-spacing));
+  --quad-grid-spacing: calc(4 * var(--grid-spacing));
+
+  --color-slate: #151b24;
+  --color-light-slate: #1b222d;
+  --color-white: #ffffff;
+  --color-mid-feint-white: rgba(255, 255, 255, 0.75);
+  --color-feint-white: rgba(255, 255, 255, 0.5);
+  --color-red: #e64141;
+  --color-green: #2dc97e;
+  --color-blue: #2394df;
+
+  --font-size-small: 1.2em;
+  --font-size-medium: 1.4em;
+  --font-size-large: 1.6em;
+
+  --font-weight-medium: 500;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+    'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-slate);
+  font-size: 10px;
+  line-height: 1.5;
+  overflow-y: scroll;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}

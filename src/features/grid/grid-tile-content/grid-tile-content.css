@@ -1,0 +1,71 @@
+.grid-tile-content {
+    color: var(--color-white);
+    padding: var(--double-grid-spacing);
+}
+
+.grid-tile-content .grid-meta {
+    color: var(--color-blue);
+    font-size: var(--font-size-small);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-tile-content .grid-meta .stock-code {
+    font-weight: var(--font-weight-medium);
+}
+
+.grid-tile-content h2 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
+    margin-top: var(--half-grid-spacing);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grid-tile-content dl {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    row-gap: var(--double-grid-spacing);
+    column-gap: var(--grid-spacing);
+}
+
+.grid-tile-content dl .item {
+    flex: 1 0 25%;
+    max-width: 25%;
+}
+
+.grid-tile-content dl .item:nth-child(3n-2) {
+    max-width: 40%;
+}
+
+.grid-tile-content dt {
+    font-size: var(--font-size-small);
+    color: var(--color-feint-white);
+}
+
+.grid-tile-content dd {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
+    margin: 0;
+}
+
+.grid-tile-content .market-cap dd,
+.grid-tile-content .price-earnings dd,
+.grid-tile-content .income-growth dd {
+    color: var(--color-mid-feint-white);
+}
+
+.positive {
+    color: var(--color-green);
+}
+
+.negative {
+    color: var(--color-red);
+}
+
+.n_a {
+    color: var(--color-feint-white);
+}

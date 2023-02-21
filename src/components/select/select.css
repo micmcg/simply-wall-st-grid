@@ -1,0 +1,31 @@
+.select-container {
+    font-size: var(--font-size-medium);
+}
+
+.select-container .select__control {
+    border-radius: var(--double-grid-spacing);
+    background-color: var(--color-slate);
+    border-color: var(--color-feint-white);
+    cursor: pointer;
+}
+
+.select-container .select__control:hover {
+    background-color: var(--color-light-slate);
+}
+
+.select-container .select__indicator-separator {
+    display: none;
+}
+
+.select-container .select__single-value {
+    color: var(--color-white);
+}
+
+.select-container .select__option {
+    color: var(--color-slate);
+    cursor: pointer;
+}
+
+.select-container .select__input-container {
+    color: var(--color-white);
+}

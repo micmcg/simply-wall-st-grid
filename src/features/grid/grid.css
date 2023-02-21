@@ -1,0 +1,24 @@
+#the-grid {
+    max-width: 1200px;
+    width: 90%;
+
+    --tiles-per-row: 4;
+}
+
+@media (max-width: 1280px) {
+    #the-grid {
+        --tiles-per-row: 3;
+    }
+}
+
+@media (max-width: 900px) {
+    #the-grid {
+        --tiles-per-row: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    #the-grid {
+        --tiles-per-row: 1;
+    }
+}
